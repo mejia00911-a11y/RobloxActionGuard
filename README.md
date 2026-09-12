@@ -145,4 +145,18 @@ The goal is to provide small reusable building blocks that can be added to an ex
 
 ## License
 
+## Verified Behavior
+
+RobloxActionGuard has been tested in Roblox Studio for:
+
+- Module loading
+- Per-player cooldown validation
+- Sliding-window rate limiting
+- Distance validation
+- Custom validators
+- Server-side RemoteEvent validation
+- Multiplayer per-player rate-limit isolation
+
+The module was also tested in a real client-to-server RemoteEvent flow with multiple players connected to the same server.
+
 MIT
